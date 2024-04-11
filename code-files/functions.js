@@ -16,4 +16,11 @@ function reverseString(str=''){
     return rev;
 }
 
-export {capitalize,reverseString};
+const calculator = {
+add: (a=0,b=0)=> a+b,
+subtract: (a=0,b=0)=>a-b,
+multiply: (a=0,b=0)=>a*b,
+divide: (a=0,b=1)=>a/b
+};
+
+export {capitalize,reverseString,calculator};
