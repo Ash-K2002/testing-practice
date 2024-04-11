@@ -62,4 +62,26 @@ function caeserCipher(str='',key=0){
 return cipher;
 }
 
-export {capitalize,reverseString,calculator,caeserCipher};
+
+function analyzeArray(arr=[]){
+let average = arr.reduce((total,val)=>total+val,0);
+average/=arr.length;
+const min = arr.reduce(
+    (minimum,val)=>{
+        return (minimum<val)?minimum:val;
+    },
+    arr[0]);
+const max = arr.reduce(
+    (maximum,val)=>{
+        return (maximum>val)?maximum:val;
+    },
+    arr[0]);
+
+const length = arr.length;
+
+return {average,min,max,length};
+}
+
+
+
+export {capitalize,reverseString,calculator,caeserCipher,analyzeArray};
