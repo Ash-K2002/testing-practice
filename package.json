@@ -1,0 +1,14 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "A repo to get started with Test Driven Development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
