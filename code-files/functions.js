@@ -7,4 +7,13 @@ function capitalize(str=''){
 
 }
 
-export {capitalize};
+function reverseString(str=''){
+    let rev='';
+    for(let i=0;i<str.length;i++)
+    {
+        rev=str[i]+rev;
+    }
+    return rev;
+}
+
+export {capitalize,reverseString};
